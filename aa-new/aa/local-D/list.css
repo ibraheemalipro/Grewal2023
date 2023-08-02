@@ -1,0 +1,235 @@
+h1 {
+  text-align: center;
+  color: #050066;
+}
+.list_contianer_table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  box-shadow: 0px 0px 10px#f20808;
+  border-radius: 30px;
+}
+#list_title {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.col_list_table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px;
+}
+.gray_col_list {
+  width: 100%;
+  background-color: rgb(172, 169, 169);
+  padding: 20px;
+}
+.dark_col_list {
+  width: 100%;
+  padding: 20px;
+}
+.transportList {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  clear: both;
+  width: 100%;
+}
+.listContainr ul li {
+  padding: 10px 3%;
+  width: 26%;
+  list-style: none;
+  margin: 5px 5px;
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff 0, #cecece 47%, #bcbcbc);
+}
+.listContainr ul li a {
+  color: #050066;
+}
+
+.slide_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #f4433608;
+  display: none;
+}
+.container_slide_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  background-color: #fff;
+  z-index: 100;
+}
+.container_slide_menu ul li {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: -20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 10px;
+  margin: 2px 2px;
+  background-color: #472183;
+  text-align: center;
+  cursor: pointer;
+}
+.container_slide_menu ul li a {
+  color: #fff;
+}
+.container_slide_menu ul li:first-child {
+  border-radius: 30px 30px 0px 0px;
+}
+.container_slide_menu ul li:last-child {
+  border-radius: 0px 0px 30px 30px;
+}
+.container_slide_menu ul li:s .container_slide_menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+#close {
+  position: absolute;
+  left: 340px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  background-color: #fbd309;
+  text-align: center;
+  color: rgb(8, 37, 255);
+  cursor: pointer;
+  z-index: 10001;
+}
+.fa-whatsapp {
+  font-size: 20px;
+  color: green;
+  text-shadow: none;
+}
+.fa-phone {
+  color: #fbd309;
+  text-shadow: none;
+  font-size: 20px;
+}
+.number span {
+  font-size: 15px;
+}
+.fa-instagram {
+  color: #ff33cc;
+  font-size: 30px;
+}
+.fa-facebook {
+  color: #0303ff;
+  font-size: 30px;
+}
+.fa-youtube {
+  color: #ff0303;
+  font-size: 30px;
+}
+.fa-twitter {
+  color: #038eff;
+  font-size: 30px;
+}
+.fa-linkedin {
+  color: #1d0acb;
+  font-size: 30px;
+}
+.phone_number1 a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#social_icons_buttom {
+  display: none;
+}
+#quick_link {
+  display: flex;
+}
+.mobile_view1 {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .list_contianer_table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col_list_table {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .gray_col_list {
+    width: 100%;
+    background-color: rgb(172, 169, 169);
+    padding: 5px;
+    text-align: center;
+  }
+  .dark_col_list {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  .listContainr ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .listContainr ul li {
+    width: 90%;
+    margin: 5px 5px;
+    position: relative;
+    left: -15px;
+  }
+  .slide_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    top: 0px;
+    display: none;
+  }
+  .contact_icons_bottom {
+    background-color: #fff;
+  }
+  .icons_container_bottom i {
+    font-size: 20px;
+  }
+  #google {
+    display: flex;
+  }
+  #social_icons_buttom {
+    display: flex;
+  }
+  #social_icons_top {
+    display: none;
+  }
+  #quick_link {
+    display: none;
+  }
+}

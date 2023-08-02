@@ -1,0 +1,178 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: .2px;
+    color: #171818;
+    -webkit-font-smoothing: antialiased;
+}
+img {
+	max-width: 100%;
+	display: block
+}
+.container-fluid {
+	width: 100%;
+	float: left;
+	clear: both
+}
+.container {
+	width: 100%;
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+a {
+	text-decoration: none;
+}
+h1{
+    font-size: 21px;
+}
+h2 {
+	font-size: 22px;
+	text-align: center;
+	color: #050066
+}
+h2:hover {
+	color: #000;
+	transition: .70s
+}
+
+p {
+	font-size: 1.2rem;
+	  margin: 7px;
+}
+table {
+	margin: 10px 1%;
+	width: 95%;
+}
+.table_area {
+	clear: both;
+	padding: 33px;
+}
+.banner_dtl {
+	position: absolute;
+	z-index: 100;
+	top: 110px;
+	width: 40%;
+	clear: both;
+	font-size: 14px;
+	color: #fff;
+	box-shadow: 1px 3px 10px #000;
+	border-radius: 45px 0;
+	padding: 0px 2%;
+	right: 5%;
+	display: none
+}
+.topnav {
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	max-width: 1170px;
+	float: left;
+	margin-top: 100px;
+	overflow: hidden;
+	font-size: 15px;
+	padding: 10px 0%;
+	border-bottom: 1px solid #fff;
+}
+.topnav button.mobile_menu {
+	position: relative;
+	display: none;
+}
+.topnav button.mobile_menu:before {
+	content: '\f0c9 ';
+	position: absolute;
+	z-index: 99999;
+	top: 0;
+	left: 5px;
+	font-family: 'FontAwesome';
+	color: #000;
+	font-size: 20px;
+	cursor: pointer;
+}
+.logo_area {
+	width: 100%;
+	float: left;
+	position: absolute;
+	z-index: 9999;
+	max-width: 1170px;
+}
+.logo, .call, .mail {
+	width: 33%;
+	float: left;
+}
+.call a, .mail a {
+	display: inline-block;
+	width: 90%;
+	padding: 10px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 30px;
+}
+.top_banner {
+	position: relative;
+	z-index: 10;
+	top: 0;
+	left: 0
+}
+.topnav ul li a {
+	padding: 15px;
+	font-weight: 600;
+}
+.topnav ul li {
+	list-style: none;
+	float: left;
+}
+.topnav ul li ul {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	width: 47%;
+	display: none;
+}
+.topnav ul li ul li {
+	background-color: #05007E;
+	color: #fff;
+	font-weight: 600;
+	border: 1px solid #05007E;
+}
+.topnav ul li.serv:hover ul {
+	color: #05007E;
+	background-color: #fff;
+	display: block;
+}
+.car-img {
+	float: left;
+	height: 330px;
+	width: 500px;
+	padding: 20px;
+	box-shadow: 0px 5px 5px rgb(85 85 85/ 66%);
+}
+.car-transport .car-body {
+	color: #000;
+	width: 50%;
+	margin: auto;
+}
+.ribbon-highlight {
+	position: relative;
+	margin: 0.1em;
+}
+.ribbon-highlight:before {
+	content: "";
+	z-index: -1;
+	left: -0.5em;
+	top: 0.1em;
+	border-width: 0.5em;
+	border-style: solid;
+	border-color: lightgreen;
+	position: absolute;
+	width: 100%;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}

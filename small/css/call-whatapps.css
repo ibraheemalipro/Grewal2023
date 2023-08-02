@@ -1,0 +1,90 @@
+/* To change this license header, choose License Headers in Project Properties. To change this template file, choose Tools | Templates and open the template in the editor. */
+
+
+/* Created on : Sep 6, 2019, 12:06:07 AM Author : SMS MEDIA */
+
+.fix-icon {
+    display: inline-block;
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    z-index: 999999;
+}
+
+.fix-icon-item {
+    height: 35px;
+    width: 35px;
+    background: #ff7400;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.fix-icon-item {
+    animation: bounce 1s infinite alternate;
+    animation-duration: 1s;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+#fix-icon {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+        /*box-shadow: 0 0 10px -10px #498cbfd1;*/
+    }
+    to {
+        transform: translateY(-15px);
+        box-shadow: 0 0 10px 10px #ef81447a;
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}
+
+
+
+.fix-icon-whataap {
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    z-index: 999999;
+    transition: all0.5s ease-in-out;
+}
+
+.fix-icon-whataap-item{
+   
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(60, 60, 60, .4);
+    transition: box-shadow .2s;
+    cursor: pointer;
+    overflow: hidden;
+    width: 55px !important;
+    height: 55px !important;
+    background: #25d366 !important;
+}
+.fix-icon-whataap:hover {
+    bottom: 25px; 
+}

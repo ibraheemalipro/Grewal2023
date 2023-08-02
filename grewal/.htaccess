@@ -1,0 +1,1177 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} \ /(.+)\.html
+RewriteRule ^ /%1.php [L,R=301]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^services\-and\-advice\-\.php$ "https\:\/\/www\.grewaltransportservice\.com\/services\-and\-advice\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-services\-pune\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-pune\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-agra\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-agra\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^ransport\-services\-in\-shakurpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-shakurpur\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^contact\-us\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^contact\-us\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^mini\-tempo\-transport\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^mini\-tempo\-transport\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^truck\-transport\-services\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^truck\-transport\-services\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^faq\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^Safety\-in\-road\-transport\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^move\-with\-family\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^stop\-covid\-19\-spreading\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^aaaa\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^parivahan\-services\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-bangalore\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-chennai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-chennai\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-delhi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-faridabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-faridabad\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-ghaziabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-ghaziabad\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-goa\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-goa\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-gurgaon\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-hyderabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-hyderabad\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-mumbai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-mumbai\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-noida\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-transport\-services\-in\-pune\.php$ "https\:\/\/www\.grewaltransportservice\.com\/carriers\/car\-transport\-service\-in\-pune\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-gurgaon\-palam\-vihar\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-madikeri\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^index\-2\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-gurgaon\-sultanpur\.html$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-mysore\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-udupi\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-kundapur\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^car\-and\-bike\-transport\-delhi\-to\-mumbai\.html$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^Mumbai\/to\-Hubli\–Dharwad\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^hire\-tempo\-for\-shifting\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^tempo\-transport\-service\-dadri\.html$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-thane\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-services\-indore\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-sonipat\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-roorkee\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-panipat\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-neemrana\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-manesar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-Delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-karnal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-services\-manipal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-sohna\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-jhajjar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-bijnor\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-alwar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-badli\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-bawal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-behror\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-bhiwadi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-bulandshahr\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-dadri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-farukh\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-greter\-noida\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-noida\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-haldvani\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-haridwar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-hisar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-kotputli\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-modinagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-muzaffarnagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-palwal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-pataudi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bike\-transport\-service\-pilani\.php$ "https\:\/\/www\.grewaltransportservice\.com\/bike\-transport\-services\-in\-bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-adarsh\-agar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-adchini\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ajmeri\-gate\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-akshardham\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-alipur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-anand\-parbat\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-anand\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-arjun\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ashok\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ashok\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ashram\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-asian\-games\-village\-complex\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-azad\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-azadpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-babarpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-badli\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bakhtawarpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bakkarwala\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-balbir\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bali\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bapa\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-barakhamba\-road\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-batla\-house\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-begumpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ber\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bhalswa\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bharat\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bhogal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bijwasan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-bindapur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-brahmpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-budh\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-burari\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-chaman\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-chanakyapuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-chandni\-chowk\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-chhawla\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-chirag\-delhi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dabri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dabwali\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dakshinpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-daryaganj\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dashrath\-puri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-daya\-basti\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-deenpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-defence\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-delhi\-cantonment\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dera\-mandi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-devli\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dhaula\-kuan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dilshad\-garden\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-diu\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-1\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-10\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-11\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-12\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-13\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-14\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-15\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-16\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-17\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-18\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-19\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-2\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-20\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-21\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-22\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-23\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-24\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-25\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-26\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-27\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-28\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-3\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-4\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-5\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-6\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-7\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-8\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-dwarka\-sector\-9\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-services\-in\-dwarka\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-east\-of\-kailash\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-fateh\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-fatehpur\-beri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-freedom\-fighter\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-gagan\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-gandhi\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ganesh\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-gautam\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-geeta\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-gtb\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-haibutpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-hari\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-harsh\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-hastsal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-inder\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-inderlok\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-inderpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-indraprastha\-estate\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-indraprastha\-extension\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jahangir\-puri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jaitpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jamia\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-janakpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jangpura\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jasola\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jhandewalan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jharoda\-majra\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jhilmil\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-johripur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-jor\-bagh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kailash\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kakrola\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kalindi\-kunj\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kalkaji\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kalu\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kalyan\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kamla\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kanjhawala\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kapashera\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-karala\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-karampura\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-karawal\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-karkardooma\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kashmiri\-gate\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-katwaria\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-keshav\-puram\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-khajoori\-khas\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-khambhat\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-khanpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-khera\-kalan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-khirki\-extension\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-khureji\-khas\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kidwai\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kirti\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kondli\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-kothanur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-krishna\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-lado\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-lajpat\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-lakshmi\-bai\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-lal\-kuan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-laxmi\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-lodi\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-lok\-nayak\-puram\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-madangir\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-madanpur\-khadar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-maharani\-bagh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mahavir\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-maidan\-garhi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-malka\-ganj\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-malviya\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mandawali\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mandi\-hills\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mandi\-house\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-manglapuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mangolpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mansarover\-garden\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-matiala\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mavsari\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mayapuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mayur\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mehrauli\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mehsana\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mithapur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mohan\-garden\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-moti\-bagh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-moti\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mukherjee\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mukundpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mundka\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-munirka\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-murthal\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-mustafabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-najafgarh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-nangal\-raya\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-nangloi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-naraina\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-narela\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-navjeevan\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-nawada\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-neb\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-neeti\-bagh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-nehru\-place\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-new\-ashok\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-new\-friends\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-nilothi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-nizamuddin\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-okhla\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-pachgaon\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-paharganj\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-palam\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-panchsheel\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-panchsheel\-park\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-pandav\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-paschim\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-pataudi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-patel\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-peera\-garhi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-pilani\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-pitampura\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-porbandar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-preet\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rajouri\-garden\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ramesh\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ranaji\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rangpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ranhola\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rani\-bagh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-ranjeet\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-razapur\-khurd\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rewadi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rithala\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-roop\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sadar\-bazar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sadiq\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-safdarjung\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sagarpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sainik\-farm\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-saket\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sangam\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sant\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sarai\-kale\-khan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sarai\-rohilla\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sarita\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sarojini\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-satbari\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-savita\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-savitri\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sawda\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-seelampur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-seemapuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shadipur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shahdara\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shakarpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shakti\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shakurpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shalimar\-bagh\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shanti\-niketan\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shastri\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-shastri\-park\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sheikh\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-siddharth\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-singhu\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-siraspur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-soami\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-somnath\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sonia\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-south\-extension\-I\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-south\-extension\-II\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sri\-niwaspuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-subhash\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sukhdev\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sultanpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sundar\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-sunlight\-colony\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tagore\-garden\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tilak\-marg\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tilak\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tilangpur\-kotla\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-timarpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tis\-hazari\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tri\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-trilokpuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-tughlakabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vasant\-kunj\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vasant\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vasundhara\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vigyan\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vijay\-nagar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vikas\-kunj\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vikaspuri\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vinod\-nagar\-east\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vinod\-nagar\-west\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vishal\-enclave\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vishnu\-garden\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-vivek\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-wazirabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-wazirpur\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-yamuna\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-yojana\-vihar\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-yusuf\-sarai\.php$ "https\:\/\/www\.grewaltransportservice\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-9\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-extension\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-1\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-10\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-11\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-12\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-13\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-14\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-15\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-16\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-17\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-18\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-19\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-2\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-20\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-21\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-22\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-23\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-24\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-25\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-27\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-29\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-30\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-32\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-34\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-35\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-36\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-37\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-38\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-4\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-5\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-6\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-7\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^transport\-services\-in\-rohini\-sector\-8\.php$ "https\:\/\/www\.grewaltransportservice\.com\/transport\-service\-in\-rohini\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^Mumbai\/to\-Raurkela\.php$ "https\:\/\/www\.grewaltransportservice\.com\/Mumbai\/to\-Rourkela\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^house\-shifting\-service\-in\-gurgaon\.php$ "https\:\/\/www\.grewaltransportservice\.com\/local\/house\-shifting\-services\-in\-gurgaon\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^house\-shifting\-service\-in\-faridabad\.php$ "https\:\/\/www\.grewaltransportservice\.com\/local\/house\-shifting\-services\-in\-faridabad\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^house\-shifting\-service\-in\-delhi\.php$ "https\:\/\/www\.grewaltransportservice\.com\/local\/house\-shifting\-services\-in\-delhi\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^bikee\/aaa\.php$ "https\:\/\/www\.grewaltransportservice\.com\/Mumbai\/to\-Bangalore\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^grewaltransportservice\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grewaltransportservice\.com$
+RewriteRule ^quote\.php$ "https\:\/\/www\.grewaltransportservice\.com\/request\-a\-free\-quote\.php" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
